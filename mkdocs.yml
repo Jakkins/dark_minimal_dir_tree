@@ -1,0 +1,8 @@
+site_name: dark_minimal_dirtree
+repo_url: https://github.com/Jakkins/dark_minimal_dirtree
+copyright: MIT license
+
+theme:
+  name: null
+  custom_dir: dark_minimal_dirtree
+  highlightjs: true

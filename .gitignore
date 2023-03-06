@@ -1,4 +1,4 @@
 dist/
 build/
-mkdocs_dark_minimal_dir_tree.egg-info
-reminder.md
+dark_minimal_dirtree.egg-info
+mkdocs_dark_minimal_dirtree.egg-info
