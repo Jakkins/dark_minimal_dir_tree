@@ -1,7 +1,0 @@
-extra_css:
-  - css/theme.css
-  - highlight/styles/default.min.css
-
-extra_javascript:
-  - js/theme.js
-  - highlight/highlight.min.js

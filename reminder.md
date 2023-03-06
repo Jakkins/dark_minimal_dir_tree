@@ -1,12 +1,14 @@
 # reminders
 
-## git utils
+# git utils
 
 ```bash
 git config --local user.name "Jakkins"
 git config --local user.email "sjakkins@proton.me"
 git config --local --list
 ```
+
+# mkdocs
 
 ## local debug python package
 
@@ -34,10 +36,6 @@ python setup.py sdist
 pip install ./dist/mkdocs-dark_minimal_dirtree-0.0.1.tar.gz
 ```
 
-## "Package would be ignored" error with dir inside the theme
-
-- https://setuptools.pypa.io/en/latest/userguide/declarative_config.html#using-a-src-layout
-
 ## release python package
 
 ```python
@@ -51,6 +49,12 @@ python setup.py sdist
 python -m twine upload dist/*
 ```
 
+Overwrite the actual version:
+
+```bash
+python -m twine upload --skip-existing dist/*
+```
+
 ## random windows error
 
 ```diff
@@ -59,23 +63,6 @@ python -m twine upload dist/*
 - ERROR: Could not install packages due to an OSError: [WinError 2] Impossibile trovare il file specificato: 'C:\\Python311\\Scripts\\pygmentize.exe' -> 'C:\\Python311\\Scripts\\pygmentize.exe.deleteme'
 
 + pip install twine --user
-```
-
-## new mkdocs project
-
-```bash
-python -m mkdocs new proj1
-code proj1/
-```
-
-```yml
-site_name: My Docs
-theme:
-  name: dark_minimal_dirtree
-```
-
-```bash
-python -m mkdocs serve
 ```
 
 ## more python
@@ -89,9 +76,15 @@ pip install Flask --user
 python setup.py bdist_wheel
 ```
 
+# Sources, errors
+
 ## configuration file error
 
 - https://github.com/mkdocs/mkdocs-bootstrap/issues/17
+
+## "Package would be ignored" error with dir inside the theme
+
+- https://setuptools.pypa.io/en/latest/userguide/declarative_config.html#using-a-src-layout
 
 ## themes example
 
