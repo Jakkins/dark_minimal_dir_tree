@@ -92,3 +92,7 @@ python setup.py bdist_wheel
 ## configuration file error
 
 - https://github.com/mkdocs/mkdocs-bootstrap/issues/17
+
+## themes example
+
+- https://github.com/chrissimpkins/cinder
