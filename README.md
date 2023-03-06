@@ -55,3 +55,25 @@ Resulting in:
 - dir1 (**this is collapsable**)
   - part2
   - part3
+
+## How to customize this theme
+
+1. Go [here](https://pypi.org/project/mkdocs-dark-minimal-dirtree/#files) and download the .tar.gz file
+2. Create a new project with `python -m mkdocs new proj`
+3. Extract `dark_minimal_dirtree` inside the project:
+
+   ```txt
+   docs
+   	index.md
+   mkdocs.yml
+   dark_minimal_dirtree
+   ```
+
+4. Edit the `mkdocs.yml` file
+
+   ```yaml
+   site_name: My Docs
+   theme:
+   	name: null
+   	custom_dir: dark_minimal_dirtree
+   ```
