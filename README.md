@@ -4,6 +4,15 @@
 
 ![example.png](example.png)
 
+## !!! Why this repo is archived
+
+I did this project to understand how to customize mkdocs.
+This is a sort of stable, minimal and working solution that everyone can use as starting point to create their custom themes.
+
+For more features I'll commit to this repo:
+
+[dark_enhanced_dirtree](https://github.com/Jakkins/dark_enhanced_dirtree)
+
 ## links
 
 - [python repo](https://pypi.org/project/mkdocs-dark-minimal-dirtree/)
